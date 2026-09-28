@@ -1,15 +1,170 @@
-<html> 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title> Hello MIT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello MIT</title>
 </head>
-<body> 
-    <h1>About me </h1>
-<p>
-    <b>my name is misintili gurung.</b><br>I am originally from Tal, Manang, and I am currently studying Bachelor of Information Technology (BIT) at Model Institute of Technology. I am interested in technology, especially computer networking, UI/UX design, and software development. I enjoy learning new things and improving my technical and communication skills. In my free time, I like playing table tennis, shopping, and watching Hollywood movies, K-dramas, and anime. My goal is to gain practical experience, become more confident, and build a successful career in the IT field. </br>
-</p>
-    <h2> </h2>
-    <h3> </h3>
-    <h4> </h4>
-    <h5> </h5>
+
+<body>
+    <header> 
+        <div class ="header-container"> 
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" width="200" height="200">
+            </div>
+            <div class="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#project">project</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#education">education</a></li>
+                        <li><a href="#contact">contact me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="search-bar">
+                <form>
+                    <input type="text" placeholder="Search here">
+                    <button type="submit">search</button>
+                </form>
+            </div>
+        
+        </div>            
+</header>
+<main> 
+    <section id ="about"> 
+        <h1>About me </h1>
+        <img src="images/missi.png" alt="missi" width="100" height="100">
+        <p>
+            <b>my name is misintili gurung.</b><br>I am originally from Tal, Manang, and I am currently studying Bachelor of Information Technology (BIT) at Model Institute of Technology. I am interested in technology, especially computer networking, UI/UX design, and software development. I enjoy learning new things and improving my technical and communication skills. In my free time, I like playing table tennis, shopping, and watching Hollywood movies, K-dramas, and anime. My goal is to gain practical experience, become more confident, and build a successful career in the IT field.<br>
+        </p>
+    </section> 
+    
+    <section id="project">
+        <h2>My Project</h2>
+        
+        <article> 
+            <h3>Rock Paper Scissors Game</h3>
+            <p>
+                The Rock Paper Scissors Game is a simple console-based project developed using the C programming language. The game allows a player to choose Rock, Paper, or Scissors, while the computer randomly selects one option. The program compares both choices and displays whether the player wins, loses, or gets a draw.The project includes features such as playing the game, viewing scores, saving scores in a file, and exiting the program. Through this project, I learned about conditional statements, loops, functions, random numbers, and file handling in C. It also helped me improve my programming logic and problem-solving skills. 
+            </p>
+        </article>
+        
+        <article> 
+            <h3>E-commerce</h3>
+            <p>
+                The E-Commerce project is an online shopping platform designed to make buying and selling products easier. Users can browse products, view details, add items to a cart, and place orders online. The project focuses on providing a simple and user-friendly shopping experience while helping me understand concepts such as UI/UX design, product management, navigation, and online transactions.
+            </p>
+        </article>
+        
+        <article> 
+            <h3>School management</h3>
+            <p>
+                The School Management project is a web-based application that helps schools manage their administrative tasks efficiently. It includes features such as student registration, attendance tracking, grade management, and communication between teachers and parents. This project allowed me to learn about database management, web development, and user interface design. It also helped me understand how technology can streamline school operations and improve communication within the educational community.
+            </p>        
+        </article>
+
+        <p>
+            One of the projects I have worked on is a **Rock Paper Scissors game in C programming**. I developed this project as part of my programming coursework with my teammate. The project allows users to play against the computer, view scores, and exit the game through a simple menu. I used concepts such as functions, loops, conditional statements, random numbers, and file handling to create the game. This project helped me improve my programming skills, problem-solving ability, and understanding of how basic programming concepts are used to develop a functional application.
+        </p>
+    </section>
+    
+    <section id="skills">
+        <h2>My Skills</h2>
+        
+        <dl> 
+            <dt>Programming language</dt>
+            <dd>java,python,c, c++</dd>
+            
+            <dt>Networking</dt>
+            <dd>cisco packet tracer</dd>
+            
+            <dt>tools</dt>
+            <dd>VScode, ms-word, excel, powerpoint</dd>
+            
+            <dt>UI/UX design</dt>
+            <dd>photoshop, illustrator</dd>
+        </dl>
+        
+        <p>
+           I have basic skills in programming, computer networking, UI/UX design, and graphic design. I have experience using C programming to develop simple projects and have worked with Cisco Packet Tracer to understand networking concepts. I am also interested in UI/UX design, Photoshop, Illustrator, video editing, and digital content creation. Along with technical skills, I have good communication, teamwork, creativity, and problem-solving skills. I am always willing to learn new technologies and improve my skills through practical projects and experience.
+        </p>
+    
+    </section>
+    <section id="Education">
+        <h2>Education</h2>
+        <table>
+            <thead>
+                <tr> 
+                    <th>S.N</th>
+                    <th>level</th>
+                    <th>Completion date</th>
+                    <th>School/College</th>
+                    <th>grade</th>
+                    <th>GPA</th>
+                </tr>
+            </thead> 
+            
+            <tbody>
+                <tr> 
+                    <td>1</td>
+                    <td>Secondary</td>
+                    <td>2023</td>
+                    <td>Hrit academy</td>
+                    <td>A</td>
+                    <td>3.45</td>
+                </tr>
+                
+                <tr> 
+                    <td>2</td>
+                    <td>Higher Secondary</td>
+                    <td>2025</td>
+                    <td>Model college</td>
+                    <td>A+</td>
+                    <td>3.75</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        
+        <form>
+            <br><label>Name</label>
+            <input type="text" placeholder="Type your name here">
+            
+            <br><br>
+
+            <label>Email</label>
+            <input type="email" placeholder="Type your email here">
+            
+            <br><br>
+            
+            <label>Message</label>
+            <textarea placeholder="Type your message here"></textarea>
+            
+            <br><br>
+            
+            <button type="submit">Submit</button>'
+        </form>
+        <h2>Follow me on</h2>
+        <p>
+             <a href="https://www.instagram.com/?flo=true"> <img src="images/instagram.jpg" alt="instagram" width="100" height="80"></a>
+             <a href="https://www.facebook.com/"><img src="images/facebook.jpg" alt="LinkedIn" width="100" height="80"></a>
+             <a href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="facebook" width="80" height="80"></a>
+             <a href="https://www.linkedin.com/home"><img src="images/linkin.png" alt="whatsapp" width="80" height="80"></a>
+        </p>
+    </section>
+</main> 
+<footer>
+    <p>
+        &copy; 2024 Misintili Gurung. All rights reserved.
+    </p>
+</footer>
 </body>
 </html>
