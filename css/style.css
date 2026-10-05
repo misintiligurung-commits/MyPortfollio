@@ -131,6 +131,7 @@ skills li::after{
 
 
 
+<<<<<<< HEAD
 #education { 
     background-color: rgb(234, 239, 192); 
     color: black; 
@@ -195,6 +196,11 @@ footer {
     .about-container {
         flex-direction: column;
     }
+=======
+@media (max-width: 768px){
+.header-container
+    flex-direction:column; 
+>>>>>>> a5af18c (initial commit)
 }
 
 
@@ -204,4 +210,15 @@ footer {
         text-align: center;
     }
 
+<<<<<<< HEAD
 }
+=======
+@media (min-width: 769px) and (max-width: 1024px)
+{
+.header-container
+    flex-direction:row; 
+}
+.about-container{
+    flex-direction:row; 
+}
+>>>>>>> a5af18c (initial commit)
